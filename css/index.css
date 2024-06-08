@@ -1,0 +1,151 @@
+/* Réalisé par ANNAD Walid - WM For Web Solution */
+/*===============================================*/
+
+/* Fichier CSS pour la page d'accueil : index.html*/
+
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+/* CSS pour la barre de navigation : nav ------------------------------------------------------- */
+
+nav{
+    width: 100%;
+    height: auto;
+    background-color: wheat;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: right;
+}
+
+nav ul li a{
+    display: block;
+    color: #ff6b81;
+    text-align: center;
+    padding: 20px 40px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+nav li a:hover:not(.active) {
+    background-color: #ff4757;
+    color: white;
+    font-weight: bold;
+}
+
+#logo{
+    padding: 14px 70px;
+}
+
+.scrolled {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: wheat; 
+}
+
+/*--------------------------------------------------------------------------------------------*/
+
+/* CSS pour la section presentation ----------------------------------------------------------*/
+
+#presentation{
+    background-image: url(../images/resto1.png);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 200px 50px;
+    height: auto;
+}
+
+#presentation h1{
+    text-align: center;
+    color: white;
+}
+
+#presentation h1 span{
+    color: #ff4757;
+}
+
+#presentation p{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}
+/*--------------------------------------------------------------------------------------------*/
+
+
+/* CSS pour la section accueil ---------------------------------------------------------------*/
+
+#accueil{
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+}
+
+#accueil table{
+    width: 100%;
+}
+
+#accueil table tr th , #accueil table tr td{
+    width: 30%;
+    text-align: center;
+    padding: 5px 5px;
+}
+
+hr{
+    border: 1px solid black;
+}
+
+.demo{
+    width: 100%;
+    margin: auto 0;
+    margin: 30px 0;
+}
+
+.demo img{
+    width: 250px;
+    height: 250px;
+    border-radius: 10%;
+}
+/*--------------------------------------------------------------------------------------------*/
+
+/* CSS pour le footer (pied de la page) ----------------------------------------------------- */
+
+footer{
+    background-color: wheat;
+    padding: 50px 0  5px 0;
+    width: 100%;
+    height: auto;
+}
+
+footer h2{
+    text-align: center;
+}
+
+footer table{
+    margin: 20px auto;
+    width: 70%;
+}
+
+footer table tr td {
+    text-align: center;
+}
+
+footer p{
+    padding: 10px 5px;
+    text-align: center;
+}
+/*--------------------------------------------------------------------------------------------*/

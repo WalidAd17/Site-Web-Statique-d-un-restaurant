@@ -1,0 +1,162 @@
+/* Réalisé par ANNAD Walid - WM For Web Solution */
+/*===============================================*/
+
+/* Fichier CSS pour la page de contact : contact.html*/
+
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+/* CSS pour la barre de navigation : nav ------------------------------------------------------- */
+
+nav{
+    width: 100%;
+    height: auto;
+    background-color: wheat;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: right;
+}
+
+nav ul li a{
+    display: block;
+    color: #ff6b81;
+    text-align: center;
+    padding: 20px 40px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+nav li a:hover:not(.active) {
+    background-color: #ff4757;
+    color: white;
+    font-weight: bold;
+}
+
+#logo{
+    padding: 14px 70px;
+}
+
+.scrolled {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: wheat; 
+}
+/*--------------------------------------------------------------------------------------------*/
+
+/* CSS pour la section adresse ---------------------------------------------------------------*/
+
+#adresse{
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+}
+
+#adresse h1{
+    text-align: center;
+}
+
+#adr{
+    list-style-type: circle;
+    text-align: center;
+}
+
+iframe{
+    display: block;
+    margin: auto;
+}
+/*--------------------------------------------------------------------------------------------*/
+
+/* CSS pour la section contact ---------------------------------------------------------------*/
+
+#contact{
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+}
+
+#contact h1{
+    text-align: center;
+}
+
+.menu-card{
+    margin: auto;
+    padding: 20px 20px;
+    width: 60%;
+    border: 2px outset black;
+
+}
+
+.table-form{
+    width: 100%;
+}
+
+.label{
+    width: 18%;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+}
+
+textarea{
+    padding: 10px;
+}
+
+#div-envoyer{
+    width: 210px;
+    display: block;
+    margin: auto;
+
+}
+
+.milieu{
+    width: 100px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #ff4757;
+    color: white;
+    border: none;
+}
+/*--------------------------------------------------------------------------------------------*/
+
+/* CSS pour la section footer ----------------------------------------------------------------*/
+
+footer{
+    background-color: wheat;
+    padding: 50px 0  5px 0;
+    width: 100%;
+    height: auto;
+}
+
+footer h2{
+    text-align: center;
+}
+
+footer table{
+    margin: 20px auto;
+    width: 70%;
+}
+
+footer table tr td {
+    text-align: center;
+}
+
+footer p{
+    padding: 10px 5px;
+    text-align: center;
+}
+/*--------------------------------------------------------------------------------------------*/

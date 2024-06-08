@@ -1,0 +1,141 @@
+/* Réalisé par ANNAD Walid - WM For Web Solution */
+/*===============================================*/
+
+/* Fichier CSS pour la page de menu : menu.html*/
+
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+/* CSS pour la barre de navigation : nav ------------------------------------------------------- */
+
+nav{
+    width: 100%;
+    height: auto;
+    background-color: wheat;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: right;
+}
+
+nav ul li a{
+    display: block;
+    color: #ff6b81;
+    text-align: center;
+    padding: 20px 40px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+nav li a:hover:not(.active) {
+    background-color: #ff4757;
+    color: white;
+    font-weight: bold;
+}
+
+#logo{
+    padding: 14px 70px;
+}
+
+.scrolled {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: wheat;
+}
+/*--------------------------------------------------------------------------------------------*/
+
+/* CSS pour la section menu ------------------------------------------------------------------*/
+
+#menu{
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+}
+
+#menu h1{
+    text-align: center;
+}
+
+.menu-card{
+    margin: auto;
+    padding: 10px 10px;
+    width: 70%;
+    border: 2px inset black;
+    background: linear-gradient(to right bottom,wheat,white);
+    box-shadow: 5px 5px 20px #ff6b81;
+}
+
+#table-menu{
+    width: 100%;
+}
+
+.categorie{
+    text-align: left;
+    padding: 10px 0;
+    font-weight: bolder;
+    font-size: larger;
+    color: #ff4757;
+}
+
+.plat{
+    font-weight: bold;
+    font-size: 16px;
+    padding: 30px 0;
+}
+
+.prix{
+    font-weight: bold;
+    font-size: 16px;
+    color: #ff4757;
+    text-align: center;
+}
+
+.btn{
+    padding: 7px;
+    color: white;
+    font-weight: bold;
+    background-color: blue;
+    border: none;
+    cursor: pointer;
+}
+/*--------------------------------------------------------------------------------------------*/
+
+/* CSS pour le footer ------------------------------------------------------------------------*/
+
+footer{
+    background-color: wheat;
+    padding: 50px 0  5px 0;
+    width: 100%;
+    height: auto;
+}
+
+footer h2{
+    text-align: center;
+}
+
+footer table{
+    margin: 20px auto;
+    width: 70%;
+}
+
+footer table tr td {
+    text-align: center;
+}
+
+footer p{
+    padding: 10px 5px;
+    text-align: center;
+}
+/*--------------------------------------------------------------------------------------------*/
